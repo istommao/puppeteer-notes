@@ -24,6 +24,13 @@ npm i puppeteer-core
 yarn add puppeteer-core
 ```
 
+*Usage with TypeScript*
+
+```bash
+npm install --save-dev @types/puppeteer
+```
+
+
 ## 简介
 
 - Puppeteer communicates with the browser using DevTools Protocol.
@@ -34,3 +41,7 @@ yarn add puppeteer-core
 - Worker has a single execution context and facilitates interacting with WebWorkers.
 
 ![puppeteer.png](./resources/puppeteer.png)
+
+## demo
+
+- demo/simple.js
